@@ -92,7 +92,7 @@ nest-asyncio==1.6.0
 noisyopt==0.2.2
 notebook==7.4.0
 notebook_shim==0.2.4
-numpy==2.2.1
+numpy==1.26.4
 osqp==1.0.4
 overrides==7.7.0
 packaging==24.2
