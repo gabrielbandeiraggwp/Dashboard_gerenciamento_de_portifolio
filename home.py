@@ -62,9 +62,9 @@ def build_main(tickers, prices):
         c.subheader(t, divider="blue")
         colA, colB, colC = c.columns(3)
         if t == "portfolio":
-            colA.image("\\imagens\\pie-chart-dollar-svgrepo-com.svg")
+            colA.image("https://github.com/gabrielbandeiraggwp/Dashboard_gerenciamento_de_portifolio/blob/main/imagens/pie-chart-dollar-svgrepo-com.svg")
         elif t == "IBOV":
-            colA.image("\\imagens\\pie-chart-svgrepo-com.svg")
+            colA.image("https://github.com/gabrielbandeiraggwp/Dashboard_gerenciamento_de_portifolio/blob/main/imagens/pie-chart-svgrepo-com.svg")
         else:
             colA.image(f'https://raw.githubusercontent.com/thefintz/icones-b3/main/icones/{t}.png', width=85)
         colB.metric(label="retorno", value=f"{rets[t]:.0%}")
