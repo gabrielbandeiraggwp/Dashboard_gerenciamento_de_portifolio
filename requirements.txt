@@ -125,7 +125,6 @@ pytest==4.6.11
 python-dateutil==2.9.0.post0
 python-json-logger==3.3.0
 pytz==2024.2
-pywin32==308
 pywinpty==2.0.15
 PyYAML==6.0.2
 pyzmq==26.2.0
