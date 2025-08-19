@@ -91,5 +91,5 @@ with col2:
 
 
 with st.sidebar:
-    st.page_link("C:\\Users\\bixot\\OneDrive\\Documentos\\projeto_1\\home.py", label="Home", icon="🏠")
+    st.page_link("home.py", label="Home", icon="🏠")
 
