@@ -14,7 +14,7 @@ from pypfopt.efficient_frontier import EfficientFrontier
 
 
 def build_sidebar():
-    st.image("C:/Users/bixot/OneDrive/Documentos/projeto_1/imagens/LogoSample_ByTailorBrands.jpg")
+    st.image("imagens/LogoSample_ByTailorBrands.jpg")
     ticker_list = pd.read_csv("tickers_ibra.csv", index_col=0)
     tickers = st.multiselect(label="Selecione as Empresas",
      options=ticker_list,
